@@ -63,7 +63,7 @@ h1 {
 /* Links */
 .links a {
   display: block;
-  background-color: rgb(92, 225, 230, 0.8);
+  background-color: rgb(92, 225, 230);
   color: rgb(0, 48, 73);
   text-decoration: none;
   padding: 14px;
@@ -73,7 +73,7 @@ h1 {
 }
 
 .links a:hover {
-  background-color: rgb(3, 199, 244, 0.8);
+  background-color: rgb(3, 199, 244);
 }
 
 .footer {

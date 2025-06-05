@@ -1,0 +1,107 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+/* Background image */
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/assets/images/back.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+}
+
+/* Main container */
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+  color: #003049;
+}
+
+/* Profile Image */
+.profile-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #003049;
+  margin-bottom: 20px;
+}
+
+/* Headings */
+h1 {
+  font-size: 26px;
+  margin-bottom: 10px;
+  text-shadow:
+    -1px -1px 0 #fff,
+     1px -1px 0 #fff,
+    -1px  1px 0 #fff,
+     1px  1px 0 #fff;
+}
+
+.subtitle {
+  font-size: 16px;
+  opacity: 0.8;
+  margin-bottom: 30px;
+  text-shadow:
+    -1px -1px 0 #fff,
+     1px -1px 0 #fff,
+    -1px  1px 0 #fff,
+     1px  1px 0 #fff;
+}
+
+/* Links */
+.links a {
+  display: block;
+  background-color: rgb(92, 225, 230, 0.8);
+  color: rgb(0, 48, 73);
+  text-shadow:
+    -1px -1px 0 #fff,
+     1px -1px 0 #fff,
+    -1px  1px 0 #fff,
+     1px  1px 0 #fff;
+  text-decoration: none;
+  padding: 14px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  transition: background 0.3s ease;
+}
+
+.links a:hover {
+  background-color: rgb(3, 199, 244, 0.8);
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 14px;
+  color: #ddd;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: rgb(0, 48, 73);
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer a:hover {
+  color: #ccc;
+}

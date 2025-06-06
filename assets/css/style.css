@@ -56,6 +56,7 @@ h1 {
 
 .subtitle {
   font-size: 18px;
+  font-weight: bold;
   opacity: 0.8;
   margin-bottom: 30px;
 }
@@ -63,6 +64,7 @@ h1 {
 /* Links */
 .links p{
   font-size: 18px;
+  font-weight: bold;
   text-shadow:
     -1px -1px 0 #fff,
      1px -1px 0 #fff,
@@ -71,8 +73,16 @@ h1 {
 }
 
 .links a {
-  display: block;
-  background-color: rgb(92, 225, 230);
+  font-weight: bold;
+  text-shadow:
+    -1px -1px 0 #fff,
+     1px -1px 0 #fff,
+    -1px  1px 0 #fff,
+     1px  1px 0 #fff;
+  max-width: 200px;
+  text-align: center;
+  display:inline-block;
+  background-color: rgb(92, 225, 230, 0.2);
   color: rgb(0, 48, 73);
   text-decoration: none;
   padding: 14px;
@@ -82,7 +92,7 @@ h1 {
 }
 
 .links a:hover {
-  background-color: rgb(3, 199, 244);
+  background-color: rgb(92, 225, 230);
 }
 
 .footer {

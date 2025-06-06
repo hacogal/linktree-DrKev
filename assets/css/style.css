@@ -10,20 +10,6 @@ body, html {
   height: 100%;
 }
 
-/* Background image */
-.background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-image: url('/assets/images/back.png');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  z-index: -1;
-}
-
 /* Main container */
 .container {
   max-width: 400px;
@@ -35,11 +21,11 @@ body, html {
 
 /* Profile Image */
 .profile-img {
-  width: 120px;
-  height: 120px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   border-radius: 50%;
-  border: 3px solid #003049;
+  border: 3px solid rgb(0, 48, 73);
   margin-bottom: 20px;
 }
 
@@ -62,28 +48,10 @@ h1 {
 }
 
 /* Links */
-.links p{
-  font-size: 18px;
-  font-weight: bold;
-  text-shadow:
-    -1px -1px 0 #fff,
-     1px -1px 0 #fff,
-    -1px  1px 0 #fff,
-     1px  1px 0 #fff;
-}
-
 .links a {
-  font-weight: bold;
-  text-shadow:
-    -1px -1px 0 #fff,
-     1px -1px 0 #fff,
-    -1px  1px 0 #fff,
-     1px  1px 0 #fff;
-  max-width: 200px;
-  text-align: center;
-  display:inline-block;
-  background-color: rgb(92, 225, 230, 0.2);
-  color: rgb(0, 48, 73);
+  display: block;
+  background-color: rgba(0, 48, 73);
+  color: white;
   text-decoration: none;
   padding: 14px;
   border-radius: 8px;
@@ -93,6 +61,13 @@ h1 {
 
 .links a:hover {
   background-color: rgb(92, 225, 230);
+}
+
+/* Logo Image */
+.logo-img {
+  bottom: 50px;
+  right: 0;
+  width: 150px;
 }
 
 .footer {

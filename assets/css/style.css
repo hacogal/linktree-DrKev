@@ -3,35 +3,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-/* Importing KORA web fonts */
-@import url(https://db.onlinewebfonts.com/c/9366bd460113d8bf675fd2bdfe1ce764?family=The+Seasons);
-
-@font-face {
-    font-family: "The Seasons";
-    src: url("https://db.onlinewebfonts.com/t/9366bd460113d8bf675fd2bdfe1ce764.eot");
-    src: url("https://db.onlinewebfonts.com/t/9366bd460113d8bf675fd2bdfe1ce764.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/9366bd460113d8bf675fd2bdfe1ce764.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/9366bd460113d8bf675fd2bdfe1ce764.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/9366bd460113d8bf675fd2bdfe1ce764.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/9366bd460113d8bf675fd2bdfe1ce764.svg#The Seasons")format("svg");
-}
-
-
-:root{
-  --kora-blue-dark: #13545d;
-    --kora-blue-mid: #2e958c;
-    --kora-blue-light: #99d0d3;
-    --kora-orange-light: #fce0d5;
-    --kora-black: #000000;
-    --kora-violet-gray: #c8c3c9;
+  font-family: 'Segoe UI', sans-serif;
 }
 
 body, html {
   height: 100%;
-  background-color: #99d0d3;
-  font-family: "The Seasons";
 }
 
 /* Main container */
@@ -40,7 +16,7 @@ body, html {
   margin: 0 auto;
   padding: 40px 20px;
   text-align: center;
-  color: rgb(19, 84, 93);
+  color: #003049;
 }
 
 /* Profile Image */
@@ -49,7 +25,7 @@ body, html {
   height: 200px;
   object-fit: cover;
   border-radius: 50%;
-  border: 3px solid rgb(19, 84, 93);
+  border: 3px solid rgb(0, 48, 73);
   margin-bottom: 20px;
 }
 
@@ -74,7 +50,7 @@ h1 {
 /* Links */
 .links a {
   display: block;
-  background-color: rgba(19, 84, 93);
+  background-color: rgba(0, 48, 73);
   color: white;
   text-decoration: none;
   padding: 14px;
@@ -84,25 +60,25 @@ h1 {
 }
 
 .links a:hover {
-  background-color: #2e958c;
+  background-color: rgb(92, 225, 230);
 }
 
 /* Logo Image */
 .logo-img {
   bottom: 50px;
   right: 0;
-  width: 100px;
+  width: 150px;
 }
 
 .footer {
   text-align: center;
-  padding: 10px 10px;
+  padding: 20px 10px;
   font-size: 14px;
   color: #ddd;
   position: fixed;
   bottom: 0;
   width: 100%;
-  background: #13545d;
+  background: rgb(0, 48, 73);
 }
 
 .footer a {
